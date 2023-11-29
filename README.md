@@ -1,1 +1,9 @@
 # misc projects
+
+Netcat Tool: A tool that replicates basic Netcat functionality to execute file uploads, commands, or an interactive shell over a network
+
+Pwnd Password: Check if your password is pwnd without sending it as plaintext to HaveIBeenPwnd?
+
+Linux Security Dashboard: User-friendly CLI to display real-time insights on system performance, network metrics, and security posture 
+
+XKCD Password Generator: Generate a customized password, inspired by XKCD comic about four common words being a sufficiently strong password
