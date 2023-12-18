@@ -8,4 +8,6 @@ Pwnd Password: Check if your password is pwnd without sending it as plaintext to
 
 Linux Security Dashboard: User-friendly CLI to display real-time insights on system performance, network metrics, and security posture 
 
+Shadow Deletion: Replace 'rm' to log every file deletion, unless otherwise specified. Useful to spot intruders cleaning up remnants of their presence
+
 XKCD Password Generator: Generate a customized password, inspired by XKCD comic about four common words being a sufficiently strong password
