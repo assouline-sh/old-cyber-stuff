@@ -1,5 +1,7 @@
 # misc projects
 
+Automated Buffer Overflow: Craft and deliver varying payloads to blindly exploit a vulnerable TCP service and establish a reverse shell
+
 CPTC Report: Report from 2023 Collegiate Penetration Testing Competition (CPTC)
 
 Netcat Tool: A tool that replicates basic Netcat functionality to execute file uploads, commands, or an interactive shell over a network
