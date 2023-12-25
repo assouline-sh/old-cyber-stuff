@@ -12,4 +12,6 @@ Linux Security Dashboard: User-friendly CLI to display real-time insights on sys
 
 Shadow Deletion: Replace 'rm' to log every file deletion, unless otherwise specified. Useful to spot intruders cleaning up remnants of their presence
 
+Sniffer: Sniff a victim’s network traffic by poisoning their ARP cache to redirect all traffic through the attacking system and look for unencrypted credentials sent on ports that often run less secure protocols
+
 XKCD Password Generator: Generate a customized password, inspired by XKCD comic about four common words being a sufficiently strong password
