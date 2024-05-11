@@ -67,7 +67,6 @@ def add_metadata(filename, track_name, artist, album_name, track_num, album_art)
 def get_playlist(sp, username, playlist_id):
 	playlist = get_tracks(sp, username, playlist_id)
 	for track in playlist:
-		print(json.dumps(track, indent = 4))
 		track_name = track['track']['name']
 		artist = track['track']['artists'][0]['name']
 		album_name = track['track']['album']['name']
@@ -76,9 +75,13 @@ def get_playlist(sp, username, playlist_id):
 		audio_url = track['track']['preview_url']
 		if audio_url:
 			filename = f"{track_name}.mp3"
-			download_audio(audio_url, filename)
-			add_metadata(filename, track_name, artist, album_name, track_num, album_art)
-			print(f"Downloaded {filename}")
+			try:
+				download_audio(audio_url, filename)
+				add_metadata(filename, track_name, artist, album_name, track_num, album_art)
+				print(f"Downloaded {filename}")
+			except Exception as e:
+				print(f"[!] ERROR: Failed to download {filename} because {e}. Skipping.")
+			
 
 def main():
 	if len(sys.argv) < 2:
