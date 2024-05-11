@@ -14,4 +14,6 @@ Shadow Deletion: Replace 'rm' to log every file deletion, unless otherwise speci
 
 Sniffer: Sniff a victim’s network traffic by poisoning their ARP cache to redirect all traffic through the attacking system and look for unencrypted credentials sent on ports that often run less secure protocols
 
+Spotify to MP3: Convert all tracks in a given spotify playlist to MP3 files with corresponding metadata. Easier to load songs onto my ipod
+
 XKCD Password Generator: Generate a customized password, inspired by XKCD comic about four common words being a sufficiently strong password
